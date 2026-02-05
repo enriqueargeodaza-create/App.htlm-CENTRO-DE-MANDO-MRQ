@@ -140,4 +140,219 @@ Este es el núcleo de **MUNDO DE LA GENTE MRQ**, la plataforma de multiconexión
 
 ---
 *Acceso restringido. Operaciones estratégicas bajo mando directo del Propietario.*
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUNDO DE LA GENTE MRQ | Centro de Mando</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --gold: #FFD700;
+            --dark-bg: #000000;
+            --card-bg: #111111;
+            --accent: #0088cc; /* Azul Telegram X */
+            --text: #ffffff;
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            color: var(--text);
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* HEADER DE PROPIETARIO */
+        header {
+            background: linear-gradient(90deg, #000, #1a1a1a);
+            padding: 15px 30px;
+            border-bottom: 2px solid var(--gold);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .brand { font-size: 1.5rem; font-weight: 900; letter-spacing: 2px; }
+        .creator-tag { background: var(--gold); color: #000; padding: 5px 15px; border-radius: 5px; font-weight: bold; font-size: 0.8rem; }
+
+        /* LAYOUT PRINCIPAL */
+        .main-container {
+            display: grid;
+            grid-template-columns: 280px 1fr 300px;
+            gap: 15px;
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        /* COLUMNA IZQUIERDA: CHATS TELEGRAM X */
+        .sidebar-left { background: var(--card-bg); border-radius: 15px; padding: 15px; border: 1px solid #222; }
+        .chat-item { padding: 12px; margin-bottom: 8px; border-radius: 10px; background: #0a0a0a; border-left: 3px solid var(--accent); cursor: pointer; }
+
+        /* CENTRO: OMNI-TRANSMISIÓN RUMBLE/X */
+        .stream-center { background: #000; border-radius: 20px; padding: 20px; border: 1px solid var(--gold); box-shadow: 0 0 30px rgba(255,215,0,0.1); }
+        .video-box { width: 100%; aspect-ratio: 16/9; background: #050505; border-radius: 12px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
+        .live-label { position: absolute; top: 15px; left: 15px; background: red; padding: 5px 12px; border-radius: 4px; font-weight: bold; animation: pulse 1.5s infinite; }
+
+        /* COLUMNA DERECHA: MULTICONEXIÓN UNIVERSAL */
+        .sidebar-right { background: var(--card-bg); border-radius: 15px; padding: 15px; border: 1px solid #222; }
+        .net-status { display: flex; justify-content: space-between; padding: 10px; margin-bottom: 5px; background: #050505; border-radius: 5px; font-size: 0.85rem; }
+        .connected { color: #00ff00; }
+
+        /* BOTÓN DE PODER */
+        .btn-omni {
+            width: 100%;
+            padding: 20px;
+            background: var(--gold);
+            color: #000;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.2rem;
+            font-weight: 900;
+            cursor: pointer;
+            margin-top: 20px;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+        .btn-omni:hover { transform: scale(1.02); box-shadow: 0 0 20px var(--gold); }
+
+        @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.4; } 100% { opacity: 1; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="brand">MUNDO DE LA GENTE <span style="color:var(--gold)">MRQ</span></div>
+    <div class="creator-tag">PROPIETARIO: ENRIQUE ARGEO DAZA</div>
+</header>
+
+<div class="main-container">
+    <aside class="sidebar-left">
+        <h3 style="color:var(--accent)"><i class="fab fa-telegram-plane"></i> Canales MRQ</h3>
+        <div class="chat-item">📢 Anuncios Globales</div>
+        <div class="chat-item">💎 Comunidad VIP</div>
+        <div class="chat-item">🛠️ Soporte Estratégico</div>
+    </aside> 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUNDO DE LA GENTE MRQ | Centro de Mando</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --gold: #FFD700;
+            --dark-bg: #000000;
+            --card-bg: #111111;
+            --accent: #0088cc; /* Azul Telegram X */
+            --text: #ffffff;
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            color: var(--text);
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* HEADER DE PROPIETARIO */
+        header {
+            background: linear-gradient(90deg, #000, #1a1a1a);
+            padding: 15px 30px;
+            border-bottom: 2px solid var(--gold);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .brand { font-size: 1.5rem; font-weight: 900; letter-spacing: 2px; }
+        .creator-tag { background: var(--gold); color: #000; padding: 5px 15px; border-radius: 5px; font-weight: bold; font-size: 0.8rem; }
+
+        /* LAYOUT PRINCIPAL */
+        .main-container {
+            display: grid;
+            grid-template-columns: 280px 1fr 300px;
+            gap: 15px;
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        /* COLUMNA IZQUIERDA: CHATS TELEGRAM X */
+        .sidebar-left { background: var(--card-bg); border-radius: 15px; padding: 15px; border: 1px solid #222; }
+        .chat-item { padding: 12px; margin-bottom: 8px; border-radius: 10px; background: #0a0a0a; border-left: 3px solid var(--accent); cursor: pointer; }
+
+        /* CENTRO: OMNI-TRANSMISIÓN RUMBLE/X */
+        .stream-center { background: #000; border-radius: 20px; padding: 20px; border: 1px solid var(--gold); box-shadow: 0 0 30px rgba(255,215,0,0.1); }
+        .video-box { width: 100%; aspect-ratio: 16/9; background: #050505; border-radius: 12px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
+        .live-label { position: absolute; top: 15px; left: 15px; background: red; padding: 5px 12px; border-radius: 4px; font-weight: bold; animation: pulse 1.5s infinite; }
+
+        /* COLUMNA DERECHA: MULTICONEXIÓN UNIVERSAL */
+        .sidebar-right { background: var(--card-bg); border-radius: 15px; padding: 15px; border: 1px solid #222; }
+        .net-status { display: flex; justify-content: space-between; padding: 10px; margin-bottom: 5px; background: #050505; border-radius: 5px; font-size: 0.85rem; }
+        .connected { color: #00ff00; }
+
+        /* BOTÓN DE PODER */
+        .btn-omni {
+            width: 100%;
+            padding: 20px;
+            background: var(--gold);
+            color: #000;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.2rem;
+            font-weight: 900;
+            cursor: pointer;
+            margin-top: 20px;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+        .btn-omni:hover { transform: scale(1.02); box-shadow: 0 0 20px var(--gold); }
+
+        @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.4; } 100% { opacity: 1; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="brand">MUNDO DE LA GENTE <span style="color:var(--gold)">MRQ</span></div>
+    <div class="creator-tag">PROPIETARIO: ENRIQUE ARGEO DAZA</div>
+</header>
+
+<div class="main-container">
+    <aside class="sidebar-left">
+        <h3 style="color:var(--accent)"><i class="fab fa-telegram-plane"></i> Canales MRQ</h3>
+        <div class="chat-item">📢 Anuncios Globales</div>
+        <div class="chat-item">💎 Comunidad VIP</div>
+        <div class="chat-item">🛠️ Soporte Estratégico</div>
+    </aside>
+
+    <main class="stream-center">
+        <div class="video-box">
+            <div class="live-label">● EN VIVO</div>
+            <i class="fas fa-video fa-5x" style="color:#222"></i>
+            <div style="position:absolute; bottom:20px; text-align:center; width:100%;">
+                <p>Mundo de la Gente MRQ - Transmisión en 4K</p>
+            </div>
+        </div>
+        
+        <button class="btn-omni" onclick="startOmni()">Iniciar Omni-Transmisión Universal</button>
+        
+        <p style="text-align:center; color:gray; font-size:0.8rem; margin-top:15px;">
+            Sincronizando con X.com, Telegram, Rumble, YouTube, TikTok y redes emergentes...
+        </p>
+    </main>
+
+    <aside class="sidebar-right">
+        <h3><i class="fas fa-link"></i> Multiconexión</h3>
+        <div class="net-status"><span>X.com</span> <span class="connected">ACTIVO</span></div>
+        <div class="net-status"><span>Telegram X</span> <span class="connected">ACTIVO</span></div>
+        <div class="net-status"><span>Rumble</span> <span class="connected">ACTIVO</span></div>
+        <div class="net-status"><span>YouTube</span>
 
